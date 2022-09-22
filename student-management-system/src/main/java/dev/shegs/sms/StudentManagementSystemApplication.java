@@ -5,7 +5,6 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import dev.shegs.sms.entity.Student;
 import dev.shegs.sms.repository.StudentRepository;
 
 @SpringBootApplication
@@ -16,7 +15,7 @@ public class StudentManagementSystemApplication implements CommandLineRunner {
 	}
 
 	@Autowired
-	private StudentRepository studentRepository;
+	private StudentRepository studentRepository; 
 	
 	@Override
 	public void run(String... args) throws Exception {
